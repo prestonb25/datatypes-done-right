@@ -15,4 +15,9 @@ if choice== "1":
 
 elif choice== "2":
    tip_percent= 0.10
-   
+elif choice== "3":
+     tip_percent= 0.15
+     elif choice== "4":
+tip_percent= 0.20
+else:
+print ("Invalid choice. Defaulting to 15%.")
