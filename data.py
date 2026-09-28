@@ -1,23 +1,18 @@
 # Bill calculator
-def tip_calculator (c): 
-    c= input("How much was the bill")
-bill = 50.75
-s= input ("How was your service") 
-print (s)
-1= input("bad")
-2= input("okay")
-3= input("good")
-4= ("great")
-choice= input ("Enter the numner (1-4):")
 
-if choice== "1":
+bill = float(input("How much was your bill? $"))
+choice= input("How was your service? ") 
+print(choice)
+if choice == "1":
         tip_percent= 0.00
-
 elif choice== "2":
    tip_percent= 0.10
 elif choice== "3":
      tip_percent= 0.15
-     elif choice== "4":
-tip_percent= 0.20
+elif choice== "4":
+    tip_percent= 0.20
 else:
-print ("Invalid choice. Defaulting to 15%.")
+    tip_percent = 0.15
+    print("Invalid choice. Defaulting to 15%.")
+    tip_perfect= 0.15
+print(f"Total: ${tip_percent:.2f}")
