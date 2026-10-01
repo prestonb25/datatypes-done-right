@@ -18,8 +18,12 @@ else:
 print(f"Total: ${tip_percent:.2f}") """
 
 
+""" 
+def spaces (n,y,t):
+    occupied = 0 
+    for i in range(len(y)) 
+    if y[i]== "C" and t[i]=="C":
+        occupied=occupied +1
 
-def spaces (N,Y,T):
-    for i in range (N):
-if Y[i]=='C' and T[i]== 'C':sss
-                        
+
+    spaces(5,"CC..C",".CC..") """
