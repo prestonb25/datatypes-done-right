@@ -1,6 +1,6 @@
 # Bill calculator
 
-bill = float(input("How much was your bill? $"))
+""" bill = float(input("How much was your bill? $"))
 choice= input("How was your service? ") 
 print(choice)
 if choice == "1":
@@ -15,4 +15,11 @@ else:
     tip_percent = 0.15
     print("Invalid choice. Defaulting to 15%.")
     tip_perfect= 0.15
-print(f"Total: ${tip_percent:.2f}")
+print(f"Total: ${tip_percent:.2f}") """
+
+
+
+def spaces (N,Y,T):
+    for i in range (N):
+if Y[i]=='C' and T[i]== 'C':sss
+                        
