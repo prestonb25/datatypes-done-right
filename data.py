@@ -1,4 +1,4 @@
-# Bill calculator
+""" # Bill calculator
 
 bill = float(input("How much was your bill? $"))
 choice = input("How was your service? 1, 2, 3, or 4") 
@@ -15,15 +15,17 @@ else:
     total = bill * 1.15
     print("Invalid choice. Defaulting to 15%.")
     tip_perfect= 0.15
-print(f"Your total is: ${total:.2f}")
+print(f"Your total is: ${total:.2f}") """
 
 
-""" 
-def spaces (n,y,t):
-    occupied = 0 
-    for i in range(len(y)) 
-    if y[i]== "C" and t[i]=="C":
-        occupied=occupied +1
 
 
-    spaces(5,"CC..C",".CC..") """
+
+#Even or Odd Calculator
+def check_odd_even (number):
+    if % 2==0:
+    return "Even"
+else:
+Return "Odd"
+print(check_odd_even(4))
+print(check_odd_even(7))
